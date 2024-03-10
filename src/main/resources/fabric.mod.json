@@ -17,6 +17,9 @@
 	"entrypoints": {
 		"main": [
 			"cc.spea.mobtimers.MobTimers"
+		],
+		"modmenu": [
+			"cc.spea.mobtimers.ModMenuIntegration"
 		]
 	},
 	"mixins": [
