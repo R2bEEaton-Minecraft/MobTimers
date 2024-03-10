@@ -1,5 +1,7 @@
 package cc.spea.mobtimers;
 
+import me.shedaniel.autoconfig.AutoConfig;
+import me.shedaniel.autoconfig.serializer.Toml4jConfigSerializer;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,5 +14,6 @@ public class MobTimers implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Hello Fabric world!");
+		AutoConfig.register(ModConfig.class, Toml4jConfigSerializer::new);
 	}
 }
