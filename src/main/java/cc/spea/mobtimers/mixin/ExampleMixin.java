@@ -1,4 +1,4 @@
-package cc.spea.vaultblock.mixin;
+package cc.spea.mobtimers.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
